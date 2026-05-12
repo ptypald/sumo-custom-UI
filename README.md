@@ -4,6 +4,8 @@ This repository contains a Python-based SUMO / TraCI simulation runner with a li
 
 All vehicles are controlled by SUMO’s native car-following and lane-changing models. The code does not apply any external vehicle controller, speed override, acceleration command, or sublane-control command.
 
+![SUMO live traffic visualizer](docs/highway_example.png)
+
 ## Overview
 
 The tool is intended as a simple visualization and debugging layer for SUMO simulations. It provides:
