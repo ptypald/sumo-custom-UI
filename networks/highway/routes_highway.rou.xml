@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <vType id="passenger" accel="1.2" decel="4.5" sigma="0.4" length="5.0" minGap="2.5" maxSpeed="33.33"/>
+    <route id="route_main" edges="H0"/>
+    <flow id="flow_main" type="passenger" route="route_main" begin="0" end="3600" vehsPerHour="1400" departLane="random" departSpeed="max"/>
+</routes>
